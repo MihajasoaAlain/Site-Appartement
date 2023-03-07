@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/bulma.min.css">
+    <script src="asset/fontawesome-free-6.2.1-web/js/all.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <div class="columns is-centered">
+        <div class="column is-three-quarters">
+
+            <nav class="navbar">
+                <div class="navbar-brand">
+                    <a href="#" class="navbar-item">
+                        <img src="img/pav.png" alt="logo" class="image">
+                    </a>
+                 <div class="navbar-burger burger" id="btn-nav" data-target="menuContent">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                 </div>  
+                </div>
+                <div id="menuContent" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a href="#" class="navbar-item">HOME</a>
+                        <a href="#search" class="navbar-item">SEARCH</a>
+                        <a href="#contact" class="navbar-item">CONTACT</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- titre et recherche -->
+   <div class="container">
+        <div class="columns is-centered is-multiline">
+
+                <div class="column is-three-quarters">
+                    <!-- titre -->
+                    <h2 class="title is-3 has-text-centered">
+                        Liste de Appartement a Paris
+                    </h2>
+                </div>
+
+                <!-- input et boutton -->
+                <div class="column is-12 is-centered">
+                    <div class="columns is-mobile is-centered">
+                        <div class="column is-narrow is-7-mobile">
+                             <div class="field">
+                                <div class="control has-icons-left has-icons-right">
+                                    <input type="text" placeholder="Recherche" class="input" id="search">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-search"></i>
+                                    </span>
+                                    <span class="icon is-small is-right">
+                                        <i class="fas fa-check"></i>
+                                    </span>
+                                </div>
+                             </div>
+                            
+                        </div>
+                        <div class="column is-narrow">
+                            <div class="button has-background-danger">
+                                Recherche
+                            </div>
+                        </div>
+                </div>
+             
+        </div>
+   </div>
+   <!-- text en dessous de l'input -->
+   <div class="column is-12">
+    <p class="has-text-centered">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fugit numquam fuga neque?
+    </p>
+   </div>
+    <!-- Resulat de recherche -->
+
+    <br><br>
+    <div class="columns is-multiline is-centered is-mobile">
+         <div class="column is-8-mobile is-4tablet is-4-desktop">
+             <img src="img/aptParis.jpg" alt="Appartement">
+             <p class="is-size-3">Lorem, ipsum.</p>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         </div>
+         <div class="column is-8-mobile is-4tablet is-4-desktop">
+             <img src="img/aptParis.jpg" alt="Appartement">
+             <p class="is-size-3">Lorem, ipsum.</p>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         </div>
+         <div class="column is-8-mobile is-4tablet is-4-desktop">
+             <img src="img/aptParis.jpg" alt="Appartement">
+             <p class="is-size-3">Lorem, ipsum.</p>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         </div>
+         <div class="column is-8-mobile is-4tablet is-4-desktop">
+             <img src="img/aptParis.jpg" alt="Appartement">
+             <p class="is-size-3">Lorem, ipsum.</p>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         </div>
+         <div class="column is-8-mobile is-4tablet is-4-desktop">
+             <img src="img/aptParis.jpg" alt="Appartement">
+             <p class="is-size-3">Lorem, ipsum.</p>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         </div>
+         <div class="column is-8-mobile is-4tablet is-4-desktop">
+             <img src="img/aptParis.jpg" alt="Appartement">
+             <p class="is-size-3">Lorem, ipsum.</p>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         </div>
+         <div class="column is-8-mobile is-4tablet is-4-desktop">
+             <img src="img/aptParis.jpg" alt="Appartement">
+             <p class="is-size-3">Lorem, ipsum.</p>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         </div>
+         <div class="column is-8-mobile is-4tablet is-4-desktop">
+             <img src="img/aptParis.jpg" alt="Appartement">
+             <p class="is-size-3">Lorem, ipsum.</p>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         </div>
+         <div class="column is-8-mobile is-4tablet is-4-desktop">
+             <img src="img/aptParis.jpg" alt="Appartement">
+             <p class="is-size-3">Lorem, ipsum.</p>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         </div>
+    </div>
+   </div>
+  <footer class="footer columns is-centered " id="contact">
+<div class="content column is-3 has-text-centered box ">
+    <p class="is-size-5">
+        <div class="title is-3 has-text-primary">
+            <span>
+                <i class="icon has-icon-left fa fa-message"></i>
+            </span>
+            CONTACTEZ NOUS
+        </div>
+    </p>
+    <div class="field ">
+        <div class="control has-icons-left has-icons-right">
+            <input class="input" type="email" placeholder="Email">
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+          </div>
+          <textarea class="textarea" placeholder="votre avis"></textarea>
+     </div>    
+     <div class="button is-primary is-outlined">Envoyer</div>
+</div>
+  </footer>
+<script>
+    var btn = document.getElementById('btn-nav');
+    var content = document.getElementById('menuContent');
+    btn.addEventListener('click',()=>{
+        btn.classList.toggle('is-active');
+        content.classList.toggle('is-active');
+    })
+</script>
+</body>
+</html>
